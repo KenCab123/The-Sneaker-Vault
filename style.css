@@ -190,3 +190,51 @@ span:hover {
     margin-top: 390px;
     margin-left: 65px;
 }
+
+/* SNEAKER LIST DETAILS STYLES */
+.sneakers h2 {
+    margin: 25px 0 0 88px;
+    font-size: 38px;
+    color: white;
+}
+
+.sneakers ul {
+    display: grid;
+    grid-template-columns: repeat(3, 30vw);
+    gap: 1rem;
+    list-style: none;
+}
+
+#sneaker-price {
+    margin: 30px;
+}
+
+.sneakers ul li {
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+    background-color: ghostwhite;
+    transition: all 0.3s ease;
+}
+
+.sneakers ul li:hover {
+    transform: scale(1.05);
+}
+
+.sneakers ul li button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.sneakers ul li h3 {
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.sneakers ul li p {
+    margin-bottom: 30px;
+}
