@@ -25,7 +25,12 @@
     <section>
         <button type="button" id="add-sneaker">Add A Sneaker</button>
         <div class="sneaker-cart">
-            <form class="sneaker-adder"></form>
+            <form class="sneaker-adder">
+                <input type="text" name="name" id="sneaker-name-text" placeholder="Sneaker Name" required>
+                <input type="number" name="price" id="sneaker-price-text" placeholder="Price" min="1" max="99999" required>
+                <input type="text" name="color" id="sneaker-color-text" placeholder="Color 1/Color 2" required>
+                <input type="number" name="rating" id="sneaker-rating-text" placeholder="Rate" min="1" max="100" required>
+            </form>
         </div>
     </section>
 </body>
