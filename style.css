@@ -56,3 +56,24 @@ span:hover {
     color: rgb(220, 4, 4);
     transition: .3s;
 }
+
+#add-sneaker {
+    background: rgb(220, 4, 4);
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    transition: .4s;
+    border-style: none;
+}
+
+#add-sneaker:hover {
+    background: white;
+    color: rgb(220, 4, 4);
+    transform: scale(1.2);
+    cursor: pointer;
+}
