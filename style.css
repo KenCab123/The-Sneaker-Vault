@@ -142,3 +142,37 @@ span:hover {
     margin-left: 30px;
     margin-right: 3px;
 }
+
+
+/* SNEAKER FORM DETAILS */
+#sneaker-name-text {
+    display: block;
+    height: 50px;
+    padding: 40px 165px 40px 10px;
+    margin-right: 100px;
+    border: none;
+}
+
+#sneaker-price-text {
+    display: block;
+    height: 40px 255px 40px 10px;
+    border: none;
+}
+
+#sneaker-color-text {
+    display: block;
+    height: 50px;
+    padding: 40px 165px 40px 10px;
+    border: none;
+}
+
+#sneaker-rating-text {
+    display: block;
+    height: 50px;
+    padding: 40px 269px 40px 10px;
+    border: none;
+}
+
+#sneaker-rating-text::placeholder {
+    margin-left: -100px;
+}
