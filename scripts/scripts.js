@@ -86,3 +86,21 @@ reset.addEventListener('click', (event) => {
         i.value = "In stock"
     })
 })
+
+
+stockDropdowns.addEventListener('change', (event) => {
+
+    if(event.target.tagName === "SELECT" && event.target.closest(".single-sneaker")) {
+        const parentLi = event.target.closest(".single-sneaker");
+
+        const emojiElem = parentLi.querySelector('h3');
+
+        const selectedValue = event.target.value;
+
+        if(selectedValue === "In Stock") {
+            emojiElem.textContent = '🟢';
+        } else {
+            emojiElem.textContent = '🔴';
+        }
+    }
+})
