@@ -67,25 +67,25 @@ listItems.forEach(li => {
 
 
 reset.addEventListener('click', (event) => {
-    const sneakerAdder = event.target.closest('.sneaker-adder')
-    const textInputs = sneakerAdder.querySelectorAll('input[type="text"]')
-
-    textInputs.forEach(i => {
-        i.value = '';
-    })
+    const sneakerAdder = event.target.closest('.sneaker-adder');
+    const textInputs = sneakerAdder.querySelectorAll('input[type="text"]');
+    
+    textInputs.forEach(input => {
+        input.value = ''; 
+    });
 
     const numInputs = sneakerAdder.querySelectorAll('input[type="number"]');
-
-    numInputs.forEach(i => {
-        i.value = '';
-    })
+    
+    numInputs.forEach(input => {
+        input.value = ''; 
+    });
 
     const dropDownInputs = sneakerAdder.querySelectorAll('select');
-
-    dropDownInputs.forEach(i => {
-        i.value = "In stock"
-    })
-})
+    
+    dropDownInputs.forEach(input => {
+        input.value = "In Stock"; 
+    });
+  })
 
 
 stockDropdowns.addEventListener('change', (event) => {

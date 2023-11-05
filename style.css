@@ -155,7 +155,8 @@ span:hover {
 
 #sneaker-price-text {
     display: block;
-    height: 40px 255px 40px 10px;
+    height: 50px;
+    padding: 40px 255px 40px 10px;
     border: none;
 }
 
