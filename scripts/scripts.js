@@ -57,3 +57,10 @@ const generateSneaker = (name, price, stock, color, rating) => {
 
     ul.append(li);
 }
+
+
+listItems.forEach(li => {
+    li.addEventListener('click', (event) => {
+        event.target.closest('.single-sneaker').remove()
+    })
+})
