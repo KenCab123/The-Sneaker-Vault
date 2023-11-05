@@ -48,3 +48,12 @@ const sneakerTemplate = (name, price, stock, color, rating) => {
 
    return li
 }
+
+
+const generateSneaker = (name, price, stock, color, rating) => {
+
+    const li = sneakerTemplate(name, price, stock, color, rating);
+    const ul = document.querySelector('.sneakers ul');
+
+    ul.append(li);
+}
