@@ -64,3 +64,25 @@ listItems.forEach(li => {
         event.target.closest('.single-sneaker').remove()
     })
 })
+
+
+reset.addEventListener('click', (event) => {
+    const sneakerAdder = event.target.closest('.sneaker-adder')
+    const textInputs = sneakerAdder.querySelectorAll('input[type="text"]')
+
+    textInputs.forEach(i => {
+        i.value = '';
+    })
+
+    const numInputs = sneakerAdder.querySelectorAll('input[type="number"]');
+
+    numInputs.forEach(i => {
+        i.value = '';
+    })
+
+    const dropDownInputs = sneakerAdder.querySelectorAll('select');
+
+    dropDownInputs.forEach(i => {
+        i.value = "In stock"
+    })
+})
