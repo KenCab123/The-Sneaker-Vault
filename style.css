@@ -9,3 +9,10 @@
 body {
     background-color: rgb(53, 46, 54);
 }
+
+.top-sec {
+    background: rgb(0, 0, 0);
+    cursor: default;
+    position: sticky;
+    top: 0;
+}
